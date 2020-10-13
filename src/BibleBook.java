@@ -51,6 +51,6 @@ public class BibleBook extends Object
 	public void display() 
 	{
 		System.out.println("Book Name: " + this.name +
-				")" + this.number_of_chapters + " chapters) - " + this.summary);
+				"(" + this.number_of_chapters + " chapters) - " + this.summary);
 	}
 }
